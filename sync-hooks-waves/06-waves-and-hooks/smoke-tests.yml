@@ -3,6 +3,7 @@ kind: Job
 metadata:
   namespace: example06
   generateName: smoke-tests-
+  name: smoke-tests
   annotations:
     argocd.argoproj.io/sync-wave: "10"
   labels:
